@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_house_collaspe"
+        android:title="建築倒塌"
+        android:icon="@drawable/icon_house_collaspe"/>
+    <item
+        android:id="@+id/id_fire"
+        android:title="火災"
+        android:icon="@drawable/fire"/>
+    <item
+        android:id="@+id/id_casualty"
+        android:title="人員傷亡"
+        android:icon="@drawable/casualty_2"/>
+    <item
+        android:id="@+id/id_others"
+        android:title="其他"
+        android:icon="@drawable/icon_others"/>
+</menu>

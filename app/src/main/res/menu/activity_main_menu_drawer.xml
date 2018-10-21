@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="首頁"
+        android:id="@+id/activity_main_menu_ic_main_page"
+        android:icon="@drawable/ic_action_main_page"/>
+    <item
+        android:title="基本資料"
+        android:id="@+id/activity_main_menu_ic_basic_information"
+        android:icon="@drawable/ic_action_basic_information" />
+    <item
+        android:title="災害知識"
+        android:id="@+id/activity_main_menu_ic_addi_knowledge"
+        android:icon="@drawable/ic_action_addi_knowledge" />
+    <item
+        android:title="地圖資料"
+        android:id="@+id/activity_main_menu_ic_map"
+        android:icon="@drawable/ic_action_main_map" />
+    <item
+        android:title="即時回報系統"
+        android:id="@+id/activity_main_menu_ic_coreport"
+        android:icon="@drawable/ic_action_coreport"/>
+</menu>

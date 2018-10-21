@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chaokuan_hao.nasa_app">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/Google_api_keys"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BasicInformation">
+
+        </activity>
+        <activity android:name=".AdditionalKnowledge">
+
+        </activity>
+        <activity android:name=".MapActivity">
+
+        </activity>
+        <activity android:name=".CoreportActivity">
+
+        </activity>
+        <activity android:name=".CheckList.Volcano_Check_List_1">
+
+        </activity>
+        <activity android:name=".CheckList.Volcano_Check_List_2">
+
+        </activity>
+        <activity android:name=".CheckList.Volcano_Check_List_3">
+
+        </activity>
+        <activity android:name=".CheckList.Volcano_Check_List_4">
+
+        </activity>
+        <activity android:name=".CheckList.Volcano_Check_List_5">
+
+        </activity>
+        <activity android:name=".CheckList.Earthquake_Check_List_1">
+
+        </activity>
+        <activity android:name=".CheckList.Earthquake_Check_List_2">
+
+        </activity>
+        <activity android:name=".CheckList.Earthquake_Check_List_3">
+
+        </activity>
+        <activity android:name=".CheckList.Event_Map">
+
+        </activity>
+        <service
+            android:name=".VolcanoAlarm.DisasterService"
+            android:enabled="true"
+            android:exported="true" />
+        <activity android:name=".VolcanoAlarm.DisasterActivity" />
+        <activity android:name=".VolcanoAlarm.UserActivity" />
+    </application>
+</manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chaokuan_hao.nasa_app.AdditionalKnowledge">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_additional_information"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/ThemeOverlay.AppCompat"
+        app:title="災害知識"
+        android:layout_alignParentTop="true"></android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toolbar_additional_information"
+        android:id="@+id/id_textview"
+        android:text="嗨"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/id_imageview"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/id_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+        android:id="@+id/bottom_navigation_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/white_border"
+        app:itemIconTint="@color/selector_item_color"
+        app:itemTextColor="@color/selector_item_color"
+        app:menu="@menu/menu_bottom_navigation" />
+</RelativeLayout>
